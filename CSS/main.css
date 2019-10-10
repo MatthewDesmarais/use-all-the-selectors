@@ -30,31 +30,28 @@ a:not(.no-highlight) {
   background-color: #2694d8;
 }
 
-.dfn > strong {
-  color: white;
+p + strong {
+  color: #fff;
 }
 
-.favs > li:nth-of-type(2) {
-  color: black;
+.favs > li:nth-of-type(1) {
+  color: #719e47;
 }
 
- .favs > li:nth-of-type(3) {
-  color: red;
+.favs > li:nth-of-type(3) {
+  color: #2aa198;
 }
 
-.types > li:nth-child(odd){
+.types > li:nth-child(odd) {
   background-color: #657ba3;
 }
 
-.types > li:nth-child(even){
+.types > li:nth-child(even) {
   background-color: #586e75;
 }
 
-.types > li:nth-child(3n){
+.types > li:nth-child(3n) {
   background-color: #d04b16;
-}
-.dfn + strong {
-  color: #fff;
 }
 
 #contents, #favs, #facts, #types {
